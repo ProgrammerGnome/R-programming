@@ -4,7 +4,7 @@
 ```r
 setwd("/home/kmark7/Asztal/PE-MIK-manjaro/ZH/");
 getwd();
-adatok <- read.csv("R_task_part1_datasource.csv", sep = ";", fileEncoding = "latin1")
+adatok <- read.csv("R_tasks_part1_datasource.csv", sep = ";", fileEncoding = "latin1")
 print(head(adatok))
 print(str(adatok))
 ```
